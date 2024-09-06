@@ -1,0 +1,25 @@
+.events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.event {
+    width: 25%; /* o ajusta según el diseño */
+    height: 300px; /* altura fija o ajustable */
+    background-size: cover; /* asegura que la imagen cubra completamente el div */
+    background-position: center; /* centra la imagen en el div */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white; /* para mejor visibilidad del texto */
+    text-shadow: 1px 1px 2px black; /* sombra de texto para mejorar legibilidad */
+    margin: 5px; /* espacio entre eventos */
+}
+
+.event h3 {
+margin: 5px;
+}
+
+
+    
